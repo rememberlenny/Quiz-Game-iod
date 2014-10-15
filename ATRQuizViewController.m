@@ -14,5 +14,6 @@
 @end
 
 @implementation ATRQuizViewController
-
+    - (IBAction)questionButton:(id)sender;
+    - (IBAction)answerButton:(id)sender;
 @end
