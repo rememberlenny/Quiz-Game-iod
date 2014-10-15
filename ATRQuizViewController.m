@@ -9,11 +9,8 @@
 #import "ATRQuizViewController.h"
 
 @interface ATRQuizViewController ()
-
-@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
-
-@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
-
+    @property (nonatomic, weak) IBOutlet UILabel *questionLabel;
+    @property (nonatomic, weak) IBOutlet UILabel *answerLabel;
 @end
 
 @implementation ATRQuizViewController
