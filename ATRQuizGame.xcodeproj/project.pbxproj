@@ -14,6 +14,8 @@
 		03292F0619EE37A10074DEEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03292F0519EE37A10074DEEE /* Images.xcassets */; };
 		03292F0919EE37A10074DEEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03292F0719EE37A10074DEEE /* LaunchScreen.xib */; };
 		03292F1519EE37A10074DEEE /* ATRQuizGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03292F1419EE37A10074DEEE /* ATRQuizGameTests.m */; };
+		03292F2119EE37EC0074DEEE /* ATRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03292F1F19EE37EC0074DEEE /* ATRQuizViewController.m */; };
+		03292F2219EE37EC0074DEEE /* ATRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03292F2019EE37EC0074DEEE /* ATRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		03292F0E19EE37A10074DEEE /* ATRQuizGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATRQuizGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03292F1319EE37A10074DEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03292F1419EE37A10074DEEE /* ATRQuizGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATRQuizGameTests.m; sourceTree = "<group>"; };
+		03292F1E19EE37EC0074DEEE /* ATRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRQuizViewController.h; sourceTree = "<group>"; };
+		03292F1F19EE37EC0074DEEE /* ATRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRQuizViewController.m; sourceTree = "<group>"; };
+		03292F2019EE37EC0074DEEE /* ATRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				03292EFC19EE37A10074DEEE /* AppDelegate.h */,
+				03292F1E19EE37EC0074DEEE /* ATRQuizViewController.h */,
+				03292F1F19EE37EC0074DEEE /* ATRQuizViewController.m */,
+				03292F2019EE37EC0074DEEE /* ATRQuizViewController.xib */,
 				03292EFD19EE37A10074DEEE /* AppDelegate.m */,
 				03292EFF19EE37A10074DEEE /* ViewController.h */,
 				03292F0019EE37A10074DEEE /* ViewController.m */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03292F0419EE37A10074DEEE /* Main.storyboard in Resources */,
+				03292F2219EE37EC0074DEEE /* ATRQuizViewController.xib in Resources */,
 				03292F0919EE37A10074DEEE /* LaunchScreen.xib in Resources */,
 				03292F0619EE37A10074DEEE /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03292F0119EE37A10074DEEE /* ViewController.m in Sources */,
+				03292F2119EE37EC0074DEEE /* ATRQuizViewController.m in Sources */,
 				03292EFE19EE37A10074DEEE /* AppDelegate.m in Sources */,
 				03292EFB19EE37A10074DEEE /* main.m in Sources */,
 			);
