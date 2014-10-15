@@ -9,7 +9,7 @@
 #import "ATRQuizViewController.h"
 
 @interface ATRQuizViewController ()
-    @property (nonatomic) int *indexOfArrayPosition;
+    @property (nonatomic) int currentArrayIndex;
     @property (nonatomic, copy) NSArray *questions;
     @property (nonatomic, copy) NSArray *answers;
 
