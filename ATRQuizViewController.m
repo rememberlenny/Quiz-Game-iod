@@ -19,11 +19,12 @@
 
 @implementation ATRQuizViewController
     - (instancetype)initWithNibName:(NSString *):nibNameOrNil
-                    bundle:(NSString *):nibBundleOrNil
+                             bundle:(NSString *):nibBundleOrNil
     {
         self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
         
         if (self){
+            
             self.questions = @[@"From what is cognac made?",
                                @"What is 7+7?",
                                @"What is the capital of Vermont?"];
