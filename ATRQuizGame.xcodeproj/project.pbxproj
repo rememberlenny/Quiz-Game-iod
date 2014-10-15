@@ -10,6 +10,8 @@
 		031B0BE519EE28D2008F13AB /* ATRQuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATRQuizViewController.h; sourceTree = "<group>"; };
 		031B0BE619EE28D2008F13AB /* ATRQuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATRQuizViewController.m; sourceTree = "<group>"; };
 		031B0BE719EE28D2008F13AB /* ATRQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATRQuizViewController.xib; sourceTree = "<group>"; };
+		03292EEA19EE36580074DEEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03292EEB19EE36580074DEEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -19,6 +21,8 @@
 				031B0BE519EE28D2008F13AB /* ATRQuizViewController.h */,
 				031B0BE619EE28D2008F13AB /* ATRQuizViewController.m */,
 				031B0BE719EE28D2008F13AB /* ATRQuizViewController.xib */,
+				03292EEA19EE36580074DEEE /* AppDelegate.h */,
+				03292EEB19EE36580074DEEE /* AppDelegate.m */,
 			);
 			sourceTree = "<group>";
 		};
