@@ -6,10 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		031B0BE519EE28D2008F13AB /* ATRQuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATRQuizViewController.h; sourceTree = "<group>"; };
+		031B0BE619EE28D2008F13AB /* ATRQuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATRQuizViewController.m; sourceTree = "<group>"; };
+		031B0BE719EE28D2008F13AB /* ATRQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATRQuizViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		031B0BDE19EE28B3008F13AB = {
 			isa = PBXGroup;
 			children = (
+				031B0BE519EE28D2008F13AB /* ATRQuizViewController.h */,
+				031B0BE619EE28D2008F13AB /* ATRQuizViewController.m */,
+				031B0BE719EE28D2008F13AB /* ATRQuizViewController.xib */,
 			);
 			sourceTree = "<group>";
 		};
