@@ -36,6 +36,22 @@
         return self;
     }
 
-    - (IBAction)questionButton:(id)sender;
-    - (IBAction)answerButton:(id)sender;
+    - (IBAction)questionButton:(id)sender{
+        self.currentArrayIndex++;
+        
+        if (self.currentArrayIndex == [self.questions count]) {
+            self.currentArrayIndex = 0;
+        }
+        
+        NSString *question = self.questions[self.currentArrayIndex];
+
+        self.questionLabel.text = question;
+        self.answerLabel.text = @"???";
+
+    }
+    - (IBAction)answerButton:(id)sender{
+        NSString *answer = self.answers[self.currentArrayIndex];
+        
+        self.answerLabel.text = answer;
+    }
 @end
