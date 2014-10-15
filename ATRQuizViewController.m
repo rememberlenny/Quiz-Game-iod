@@ -9,6 +9,10 @@
 #import "ATRQuizViewController.h"
 
 @interface ATRQuizViewController ()
+    @property (nonatomic) int *indexOfArrayPosition;
+    @property (nonatomic, copy) NSArray *questions;
+    @property (nonatomic, copy) NSArray *answers;
+
     @property (nonatomic, weak) IBOutlet UILabel *questionLabel;
     @property (nonatomic, weak) IBOutlet UILabel *answerLabel;
 @end
